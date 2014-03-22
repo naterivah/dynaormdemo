@@ -23,7 +23,7 @@ public class Configuration {
         //create an instance of propertie builder
         DbPropertiesBuilder builder = new DbPropertiesBuilder();
 
-        Properties properties = builder.setUrl("jdbc:mysql://localhost/kikoo")
+        Properties properties = builder.setUrl("jdbc:mysql://localhost:8889/kikoo")
                 .setUser("root")
                 .setPassword("")
                 .setInitialSize("100")
